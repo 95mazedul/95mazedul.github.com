@@ -1,0 +1,686 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+*{margin: 0;padding: 0;}
+
+
+#container {width: 90%;
+    
+    margin: 70px 33px;
+}
+
+#left-part {overflow: hidden;
+    width: 35%;
+     float: left;
+    min-height: 1500px;
+   
+}
+
+#right-part {
+    width: 51%;
+    float: right;
+    min-height: 1500px;
+    
+    overflow: hidden;
+}
+
+.logo {height: 194px;
+    width: 100%;
+    padding-bottom: 112px;
+    
+}
+
+.pro-pic {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #3d6cb0; 
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+.person-name {
+    width: 250px;
+    height: 13px;
+    font-weight: 500;
+    font-size: 25px;
+    margin: -2px auto;
+    text-align: center;
+}
+
+.surname {
+    font-size: 30px;
+    margin-top: -9px;
+}
+
+.person-ocp {
+    font-weight: bold;
+    font-size: small;
+    margin-top: -24px;
+}
+
+.profile {width: 100%;
+    margin-bottom: 0px;
+    min-height: 350px;
+    
+}
+
+.profile-top {width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+
+.icon {width: 127px;
+    
+    
+}
+
+.title {
+    width: 83%;
+    color: #3d6cb0;
+    font-weight: bold;
+    font-size: 31px;
+    margin-top: 14px;
+    float: right;
+
+}
+
+hr {
+    display: block;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-left: 5px;
+    margin-right: auto;
+    border-color: #3d6cb0;
+    border-width: 3px;
+    
+
+}
+
+.profile-bottom {
+    width: 100%;
+    text-align: left;
+    font-size: small;
+    padding-bottom: 10px;
+}
+.profile-bottom span {
+    font-weight: bold;
+}
+
+.CONTACT {width: 100%;
+    margin-bottom: 0px;
+    min-height: 350px;
+   
+
+
+.contact-bottom-left {
+    
+    color:#3d6cb0;
+    height: 30px;
+    
+    font-weight: bold;
+}
+
+.contact-bottom-right {
+   
+    height: 30px;
+}
+
+.SKILLS {
+    width: 100%;
+    margin-bottom: 0px;
+    min-height: 350px;
+
+}
+
+.SKILLS-bottom-parts {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+}
+
+.SKILLS-bottom-part-up {
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.SKILLS-bottom-part-down {
+    width: 100%;
+    
+}
+
+.education {
+    width: 100%;
+    margin-bottom: 0px;
+    min-height: 350px;
+}
+
+.right-sides-top {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.right-sides-icon {
+}
+
+.right-sides-title {
+    width: 88%;
+    color: #3d6cb0;
+    font-weight: bold;
+    font-size: 31px;
+    margin-top: 14px;
+    float: right;
+}
+
+.right-sides-bottom {
+width: 100%;
+    min-height: 200px;
+}
+
+.right-sides-education {
+    width: 100%;
+    height: 120px;
+    margin: 5px;
+}
+
+.right-sides-education-left {
+    width: 5%;
+    float: left;
+}
+
+.right-sides-education-right {
+    width: 90%;
+    float: right;
+}
+
+.right-sides-education-right-up {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 0px;
+    
+}
+
+.degree {
+    font-weight: bold;
+    color: #3f6fb6;
+    margin-right: 10px;
+}
+
+.right-sides-education-right-middle {
+    font-weight: 400;
+    font-size: 20px
+}
+
+.right-sides-education-right-bottom {
+    font-size: small;
+}
+
+.experience {
+    width: 100%;
+    margin-bottom: 0px;
+    min-height: 350px;
+}
+
+.company-name {
+    font-weight: bold;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.software {
+    width: 100%;
+    margin-bottom: 0px;
+    min-height: 300px;
+    margin-top: -4px;
+}
+
+.software-bottom-left {
+    width: 50%
+    float: left;
+}
+
+.software-bottom-left-parts {
+    width: 100%;
+    float: left;
+    height: 50px;
+}
+
+.software-bottom-left-parts-title {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.software-bottom-left-parts-rate {
+}
+
+.software-bottom-right {
+    width: 50%
+    float:right;
+}
+
+.software-bottom-right-parts {
+     width: 100%;
+    float: right;
+    height: 50px;
+}
+
+.software-bottom-right-parts-title {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.software-bottom-right-parts-rate {
+}
+
+.pro-pic-solid {
+    width: 120px;
+    height: 120px;
+    padding: 5px; 
+    border-radius: 100px;
+    background-color: #3d6cb0;
+    margin: 10px auto;
+}
+
+.profile-image {
+    width: 66px;
+    height: 65px;
+    float: left;
+}
+
+.line {
+    
+   float: right;
+    margin-top: 3px;
+    width:59%;
+}
+.skills-line{
+    float: right;
+    margin-top: -29px;
+    width:57%;
+}
+.CONTACT-line{
+    float: right;
+    margin-top: -29px;
+    width:47%;
+}
+
+.contact-image {
+  width: 66px;
+    height: 65px;
+    float: left;
+}
+
+.contact-bottom {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.contact-bottom-right-package {
+     width: 50%%;
+    text-align: justify;
+    float: right;
+}
+
+.contact-bottom-left-package {
+    float: left;
+    width: 50%;
+}
+
+.skills-image {
+    width: 66px;
+    height: 65px;
+    float: left;
+    
+}
+
+.skill-line {
+     float: right;
+    
+    margin-top: -31px;
+    width: 220px;
+    
+}
+
+
+
+.contact-top {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.skills-top {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px; 
+}
+
+.skills-bottom {
+    width: 100%;
+    min-height: 500px;
+}
+
+.skills-ratio-pic {
+    width: 300px;
+    height: 14px;
+    margin-left: 16%;
+}
+
+.rightsides-thumbnil {
+    width: 66px;
+    height: 65px;
+    float: left;s
+}
+
+.education-line {
+    float: right;
+    margin-top: -29px;
+    width:57%;
+}
+
+.right-sides-education-left-image {
+    width: 17px;
+    height: 17px;
+    margin-right: 7px;
+}
+
+.experience-line {
+    float: right;
+    margin-top: -29px;
+    width:55%;
+}
+
+.software-line {
+    float: right;
+    margin-top: -29px;
+    width:57%;
+}
+
+.software-bottom-left-parts-rate-image {
+    width: 50%;
+    height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
